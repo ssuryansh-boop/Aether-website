@@ -270,7 +270,7 @@ export default function SellerPage() {
         <div className="steps" style={styles.gridFourColumn}>
           <div className="stepCard" style={styles.interactiveCard}>
             <h3 style={{...styles.cardHeader, color:"#3b82f6"}}>1. Create Store</h3>
-            <p style={styles.cardBody}>Set up your GloboShop seller profile in minutes.</p>
+            <p style={styles.cardBody}>Set up your Aether seller profile in minutes.</p>
           </div>
           <div className="stepCard" style={styles.interactiveCard}>
             <h3 style={{...styles.cardHeader, color:"#3b82f6"}}>2. Add Products</h3>
@@ -302,7 +302,7 @@ export default function SellerPage() {
 
       {/* TRUST SECTION */}
       <section className="trust reveal" style={styles.sectionContainer}>
-        <h2 style={styles.sectionTitle}>Why Sellers Trust GloboShop</h2>
+        <h2 style={styles.sectionTitle}>Why Sellers Trust Aether</h2>
         <div className="trustGrid" style={styles.gridThreeColumn}>
           <div className="trustCard" style={styles.infoCard}>
             <h3 style={styles.infoCardHeader}>⚡ Fast Payouts</h3>

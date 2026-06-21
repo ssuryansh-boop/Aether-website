@@ -42,7 +42,7 @@ export default function SellerExplorePage() {
 
         <div className="exploreBrand">
           <span className="brandDot"></span>
-          <span>GloboShop Seller Studio</span>
+          <span>Aether Seller Studio</span>
         </div>
       </header>
 

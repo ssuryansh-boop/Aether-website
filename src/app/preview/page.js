@@ -98,7 +98,7 @@ export default function PreviewPage() {
         {/* Floating Gradient Logo Header - NOW ANCHORED TOP LEFT */}
         <div style={styles.globoHeaderLeft}>
           <div style={styles.logoPill}>
-            <span style={styles.logoText}>GLOBOSHOP</span>
+            <span style={styles.logoText}>Aether</span>
           </div>
         </div>
 

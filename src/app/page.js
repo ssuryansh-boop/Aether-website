@@ -45,7 +45,7 @@ const handleComingSoon = () => {
             className="logoImg"
             priority        /* Ensures the logo loads immediately without flashing */
           />
-          <span className="logoText">GloboShop</span>
+          <span className="logoText">Aether</span>
         </div>
 
         <div className="navRight">
@@ -60,7 +60,7 @@ const handleComingSoon = () => {
         </h1>
 
         <p className="subtitle">
-          GloboShop is not a marketplace — it’s a living social commerce ecosystem where every post can sell.
+          Aether is not a marketplace — it’s a living social commerce ecosystem where every post can sell.
         </p>
 
         <div className="heroButtons">
@@ -68,13 +68,13 @@ const handleComingSoon = () => {
   className="btn primary big" 
   onClick={() => router.push('/explore')}
 >
-  Explore GloboShop
+  Explore Aether
 </button>
           <button 
   className="btn ghost big"
   onClick={() => router.push('/seller')}
 >
-  Sell on GloboShop?
+  Sell on Aether?
 </button>
         </div>
 
@@ -166,7 +166,7 @@ const handleComingSoon = () => {
       {/* VIRAL LIVE SECTION - SINGLE PREMIUM CARD */}
       <section className="viralSection reveal" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
         <div className="viralHeader" style={{ textAlign: "center", marginBottom: "40px" }}>
-          <h2>Live on GloboShop 🔥</h2>
+          <h2>Live on Aether 🔥</h2>
           <p>Real creators. Real products. Real-time commerce energy.</p>
         </div>
 
@@ -259,7 +259,7 @@ const handleComingSoon = () => {
       {/* SCROLL DEPTH PSYCHOLOGY SECTION */}
       <section className="trustSection reveal">
         <div className="trustHeader">
-          <h2>Why people stay on GloboShop</h2>
+          <h2>Why people stay on Aether</h2>
           <p>Designed for attention, engagement, and instant buying behavior</p>
         </div>
 
@@ -286,17 +286,17 @@ const handleComingSoon = () => {
 
       {/* BRAND / WHY SECTION */}
       <section className="brand reveal">
-        <h2>Why GloboShop exists</h2>
+        <h2>Why Aether exists</h2>
         <p>
           Traditional e-commerce is static. Social media is addictive but not shoppable.
-          GloboShop merges both into one experience.
+          Aether merges both into one experience.
         </p>
       </section>
 
       {/* TRENDING TRUST SECTION */}
       <section className="trustSection reveal">
         <div className="trustHeader">
-          <h2>Trending on GloboShop 🔥</h2>
+          <h2>Trending on Aether 🔥</h2>
           <p>Live demand signals (updated continuously)</p>
         </div>
 
@@ -316,7 +316,7 @@ const handleComingSoon = () => {
       <section className="memorySection reveal">
         <div className="memoryBox">
           <h2 className="memoryTitle">
-            You don’t browse GloboShop.
+            You don’t browse Aether.
           </h2>
 
           <h1 className="memoryBig">
@@ -351,7 +351,7 @@ const handleComingSoon = () => {
         <div className="trustHeader">
           <h2>Built for trust. Designed for growth.</h2>
           <p>
-            GloboShop is not a demo. It’s a real commerce ecosystem powered by creators and real users.
+            Aether is not a demo. It’s a real commerce ecosystem powered by creators and real users.
           </p>
         </div>
 
@@ -407,14 +407,14 @@ const handleComingSoon = () => {
         </h2>
 
         <button className="btn primary big" onClick={handleComingSoon}>
-  Join GloboShop
+  Join Aether
 </button>
       </section>
       {/* FOOTER */}
 <footer className="footer">
 
   <div className="footerBrand">
-    <h2>GloboShop</h2>
+    <h2>Aether</h2>
     <p>Turn every scroll into a storefront.</p>
   </div>
 
@@ -431,7 +431,7 @@ const handleComingSoon = () => {
   </div>
 
   <div className="footerBottom">
-    <p>© 2026 GloboShop. All rights reserved.</p>
+    <p>© 2026 Aether. All rights reserved.</p>
   </div>
 
 </footer>

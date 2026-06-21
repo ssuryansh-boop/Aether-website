@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "GloboShop",
+  title: "Aether",
   description: "Next-gen social commerce platform",
 };
 

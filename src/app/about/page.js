@@ -16,7 +16,7 @@ export default function About() {
             marginBottom: "20px",
           }}
         >
-          About GloboShop
+          About Aether
         </h1>
 
         <p
@@ -28,7 +28,7 @@ export default function About() {
             lineHeight: "1.8",
           }}
         >
-          GloboShop is a social commerce platform where content and commerce
+          Aether is a social commerce platform where content and commerce
           become one experience.
         </p>
       </section>
@@ -72,7 +72,7 @@ export default function About() {
         <div className="trustHeader">
           <h2>Built for Everyone</h2>
           <p>
-            GloboShop creates value for every participant in the ecosystem.
+            Aether creates value for every participant in the ecosystem.
           </p>
         </div>
 
@@ -130,7 +130,7 @@ export default function About() {
       {/* WHY GLOBOSHOP */}
       <section className="trustSection">
         <div className="trustHeader">
-          <h2>Why GloboShop?</h2>
+          <h2>Why Aether?</h2>
         </div>
 
         <div className="trustGrid">
@@ -177,7 +177,7 @@ export default function About() {
             lineHeight: "1.8",
           }}
         >
-          GloboShop is currently under active development. We are continuously
+          Aether is currently under active development. We are continuously
           improving the platform, introducing new features, and building the
           next generation of social commerce.
         </p>
@@ -189,7 +189,7 @@ export default function About() {
             fontWeight: "700",
           }}
         >
-          Welcome to GloboShop 🚀
+          Welcome to Aether 🚀
         </p>
       </section>
     </main>

@@ -15,7 +15,7 @@ lineHeight: "1.8",
   </p>
 
   <p>
-    Welcome to GloboShop. We respect your privacy and are committed
+    Welcome to Aether. We respect your privacy and are committed
     to protecting your personal information. This Privacy Policy
     explains how information is collected, used, stored, and
     protected when you use our website, mobile application, and
@@ -55,7 +55,7 @@ lineHeight: "1.8",
   <h2>3. Information Sharing</h2>
 
   <p>
-    GloboShop does not sell personal information to third parties.
+    Aether does not sell personal information to third parties.
   </p>
 
   <p>Information may be shared with:</p>
@@ -86,7 +86,7 @@ lineHeight: "1.8",
   <h2>6. Cookies and Analytics</h2>
 
   <p>
-    GloboShop may use cookies, analytics tools, and similar
+    Aether may use cookies, analytics tools, and similar
     technologies to understand usage patterns, improve performance,
     and enhance user experience.
   </p>
@@ -105,7 +105,7 @@ lineHeight: "1.8",
   <h2>8. Children's Privacy</h2>
 
   <p>
-    GloboShop is not intended for individuals who do not meet the
+    Aether is not intended for individuals who do not meet the
     minimum legal age requirements applicable in their jurisdiction.
   </p>
 
@@ -129,7 +129,7 @@ lineHeight: "1.8",
   </p>
 
   <p style={{ marginTop: "40px", color: "#888" }}>
-    By using GloboShop, you agree to this Privacy Policy.
+    By using Aether, you agree to this Privacy Policy.
   </p>
 </main>
   );

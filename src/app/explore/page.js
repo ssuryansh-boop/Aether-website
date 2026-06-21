@@ -44,14 +44,14 @@ export default function ExplorePage() {
         </button>
         <div className="exploreBrand">
           <span className="brandDot"></span>
-          <span>GloboShop Experience</span>
+          <span>Aether Experience</span>
         </div>
       </header>
 
       {/* HERO TITLE */}
       <section className="exploreHero">
         <h1 className="revealTitle">
-          Inside <span>GloboShop</span>
+          Inside <span>Aether</span>
         </h1>
         <p className="revealSubtitle">
           An immersive look at a living social commerce ecosystem. Scroll, discover, and checkout instantly.
@@ -113,7 +113,7 @@ export default function ExplorePage() {
       <footer className="exploreFooter">
         <h2>Ready to change how you shop?</h2>
         <button className="ctaButton" onClick={() => router.push("/")}>
-          Download GloboShop App
+          Download Aether App
         </button>
       </footer>
     </main>
