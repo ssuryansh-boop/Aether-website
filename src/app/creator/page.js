@@ -1,10 +1,8 @@
 "use client";
 
 import { useEffect } from "react";
-import { useRouter } from "next/navigation";
 
 export default function CreatorPage() {
-  const router = useRouter();
 
   useEffect(() => {
     const elements = document.querySelectorAll(".reveal");
@@ -29,7 +27,6 @@ export default function CreatorPage() {
     <main className="creatorMain" style={styles.creatorMain}>
       {/* GLOBAL ANIMATION INJECTION */}
       <style jsx global>{`
-        /* Existing reveal animations */
         .reveal {
           opacity: 0;
           transform: translateY(40px);
@@ -40,7 +37,6 @@ export default function CreatorPage() {
           transform: translateY(0);
         }
 
-        /* Universal Card Base Transition Styles */
         .statCard, .stepCard, .trustCard, .dashCard, .diamondHover {
           cursor: pointer;
           transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), 
@@ -48,7 +44,6 @@ export default function CreatorPage() {
                       border-color 0.4s cubic-bezier(0.25, 1, 0.5, 1) !important;
         }
 
-        /* Custom Violet Glow and Lift Hover Effect */
         .statCard:hover, .stepCard:hover, .trustCard:hover, .dashCard:hover, .diamondHover:hover {
           transform: translateY(-10px) !important;
           box-shadow: 0 15px 35px rgba(123, 92, 255, 0.35), 
@@ -66,23 +61,16 @@ export default function CreatorPage() {
         </h1>
         <div style={styles.problemBox}>
           <p style={styles.problemText}>
-            <strong style={{ color: "#ef4444" }}>The Problem:</strong> Traditional affiliate systems offer low tracking limits, complex links, and hidden splits that steal your audience value.
+            <strong style={{ color: "#ef4444" }}>The Shift:</strong> Traditional affiliate channels limit payouts. With ZAVELO, your total balance compounds securely right inside your dashboard from day one.
           </p>
         </div>
         <p style={styles.heroSubtitle}>
-          <strong>Our Mission:</strong> We reward authentic creators. Every single tier guarantees an industry-standard 5% baseline payout alongside compounding tier cash milestones and custom perks.
+          <strong>Our Mission:</strong> We reward authentic scaling. Accumulate your baseline flat 5% commissions throughout Bronze, and completely unlock full balance withdrawal access the exact second you hit Silver!
         </p>
 
         <div className="creatorButtons" style={styles.heroButtons}>
           <button className="btn primary big" style={styles.primaryBtn} onClick={() => alert('Coming Soon!')}>
             Join as Creator
-          </button>
-          <button
-            className="btn ghost big"
-            style={styles.ghostBtn}
-            onClick={() => router.push("/creator-explore")}
-          >
-            View Dashboard Demo
           </button>
         </div>
       </section>
@@ -94,12 +82,12 @@ export default function CreatorPage() {
           <p style={styles.statLabel}>Guaranteed baseline network commission</p>
         </div>
         <div className="statCard" style={styles.statCard}>
-          <h2 style={styles.statNumber}>₹25,000+</h2>
-          <p style={styles.statLabel}>Milestone tier rewards unlocked directly</p>
+          <h2 style={styles.statNumber}>Silver Tier</h2>
+          <p style={styles.statLabel}>Unlock point for 100% full accumulated earnings withdrawal</p>
         </div>
         <div className="statCard" style={styles.statCard}>
           <h2 style={styles.statNumber}>1 Tap</h2>
-          <p style={styles.statLabel}>From content embedding → automated payout</p>
+          <p style={styles.statLabel}>From content embedding → automated payout tracking</p>
         </div>
       </section>
 
@@ -113,9 +101,9 @@ export default function CreatorPage() {
             <p style={styles.cardBody}>Easily assemble high-converting personal profiles containing product tags directly within your stream pages.</p>
           </div>
           <div className="stepCard" style={styles.interactiveCard}>
-            <div style={styles.cardIcon}>💬</div>
-            <h3 style={styles.cardHeader}>Direct Connections</h3>
-            <p style={styles.cardBody}>Engage directly with checking cohorts to build recurring loyalty and multi-product affinity lines over time.</p>
+            <div style={styles.cardIcon}>🔓</div>
+            <h3 style={styles.cardHeader}>Progressive Unlocks</h3>
+            <p style={styles.cardBody}>Your Bronze earnings build up entirely securely. Tap into your full account balance once you step up to Silver.</p>
           </div>
           <div className="stepCard" style={styles.interactiveCard}>
             <div style={styles.cardIcon}>🏆</div>
@@ -136,12 +124,12 @@ export default function CreatorPage() {
             <p style={styles.cardBody}>Your progress path computes continuously across your overall sales volume to avoid monthly resets.</p>
           </div>
           <div className="trustCard" style={styles.infoCard}>
-            <h3 style={styles.infoCardHeader}>⚡ Real-Time Unlocks</h3>
-            <p style={styles.cardBody}>The second your attribution points meet a milestone target, your system upgrades seamlessly.</p>
+            <h3 style={styles.infoCardHeader}>🛑 Bronze Reserve Phase</h3>
+            <p style={styles.cardBody}>During the initial Bronze path, your earnings stack safely inside your wallet balance while you establish tracking authority.</p>
           </div>
           <div className="trustCard" style={styles.infoCard}>
-            <h3 style={styles.infoCardHeader}>💰 Immediate Rewards</h3>
-            <p style={styles.cardBody}>Direct platform cash unlocks are instantly funneled to your ZAVELO wallet right after delivery confirmations pass.</p>
+            <h3 style={styles.infoCardHeader}>💰 Full Silver Cashout</h3>
+            <p style={styles.cardBody}>Reaching Silver turns on your checkout wallet completely, enabling you to immediately withdraw your whole Bronze reserve pool.</p>
           </div>
         </div>
       </section>
@@ -152,41 +140,44 @@ export default function CreatorPage() {
         <div className="dashboardGrid" style={styles.tierGrid}>
           
           {/* BRONZE */}
-          <div className="dashCard" style={styles.tierCard}>
+          <div className="dashCard" style={{ ...styles.tierCard, border: "1px solid rgba(239, 68, 68, 0.2)" }}>
             <div style={styles.tierHeaderRow}>
               <span style={styles.tierEmoji}>🛡️</span>
               <div>
                 <h3 style={styles.tierName}>Bronze Creator</h3>
-                <span style={styles.tierIdentity}>Level 1</span>
+                <span style={styles.tierIdentity}>Level 1 (Seeding)</span>
               </div>
             </div>
             <div style={styles.metricsBox}>
               <div style={styles.metricRow}><span>Commission:</span> <span style={styles.effectiveRate}>5.0%</span></div>
-              <div style={styles.metricRow}><span>Tier Reward:</span> <span>—</span></div>
+              <div style={styles.metricRow}><span>Withdrawal Status:</span> <span style={{ color: "#ef4444", fontWeight: "600" }}>Locked (Accumulating)</span></div>
             </div>
             <div style={styles.milestoneBox}>
               <h4 style={styles.milestoneTitle}>Target & Perks:</h4>
               <p style={styles.milestoneText}>• 15 successful orders.</p>
               <p style={styles.milestoneText}>• Grants Creator Profile & native product tagging tool access.</p>
+              <p style={{ ...styles.milestoneText, color: "#94a3b8", fontSize: "0.8rem", marginTop: "8px" }}>*All commission cash generated in Bronze accumulates cleanly in your pending wallet until Silver level is crossed.</p>
             </div>
           </div>
 
           {/* SILVER */}
-          <div className="dashCard" style={styles.tierCard}>
+          <div className="dashCard" style={{ ...styles.tierCard, border: "1px solid rgba(16, 185, 129, 0.3)" }}>
             <div style={styles.tierHeaderRow}>
               <span style={styles.tierEmoji}>🥈</span>
               <div>
                 <h3 style={styles.tierName}>Silver Creator</h3>
-                <span style={styles.tierIdentity}>Level 2</span>
+                <span style={styles.tierIdentity}>Level 2 (Active Gateway)</span>
               </div>
             </div>
             <div style={styles.metricsBox}>
               <div style={styles.metricRow}><span>Commission:</span> <span style={styles.effectiveRate}>5.0%</span></div>
               <div style={styles.metricRow}><span>Tier Reward:</span> <span style={{color:'#10b981'}}>₹500 Cash</span></div>
+              <div style={styles.metricRow}><span>Withdrawal Status:</span> <span style={{ color: "#10b981", fontWeight: "700" }}>Unlocked (Full Payouts)</span></div>
             </div>
             <div style={styles.milestoneBox}>
               <h4 style={styles.milestoneTitle}>Target & Perks:</h4>
               <p style={styles.milestoneText}>• 75 successful orders.</p>
+              <p style={styles.milestoneText}>• <strong>Withdraw 100%</strong> of accumulated Bronze reserve cash seamlessly.</p>
               <p style={styles.milestoneText}>• Unlocks official Silver Badge platform profile display.</p>
             </div>
           </div>
@@ -203,6 +194,7 @@ export default function CreatorPage() {
             <div style={styles.metricsBox}>
               <div style={styles.metricRow}><span>Commission:</span> <span style={styles.effectiveRate}>5.0%</span></div>
               <div style={styles.metricRow}><span>Tier Reward:</span> <span style={{color:'#10b981'}}>₹2,500 Cash</span></div>
+              <div style={styles.metricRow}><span>Withdrawals:</span> <span style={{color:'#10b981'}}>Active</span></div>
             </div>
             <div style={styles.milestoneBox}>
               <h4 style={styles.milestoneTitle}>Target & Perks:</h4>
@@ -223,6 +215,7 @@ export default function CreatorPage() {
             <div style={styles.metricsBox}>
               <div style={styles.metricRow}><span>Commission:</span> <span style={styles.effectiveRate}>5.0%</span></div>
               <div style={styles.metricRow}><span>Tier Reward:</span> <span style={{color:'#10b981'}}>₹10,000 Cash</span></div>
+              <div style={styles.metricRow}><span>Withdrawals:</span> <span style={{color:'#10b981'}}>Active</span></div>
             </div>
             <div style={styles.milestoneBox}>
               <h4 style={styles.milestoneTitle}>Target & Perks:</h4>
@@ -243,6 +236,7 @@ export default function CreatorPage() {
             <div style={styles.metricsBox}>
               <div style={styles.metricRow}><span>Commission:</span> <span style={styles.effectiveRate}>5.0%</span></div>
               <div style={styles.metricRow}><span>Tier Reward:</span> <span style={{color:'#10b981'}}>₹25,000 Cash</span></div>
+              <div style={styles.metricRow}><span>Withdrawals:</span> <span style={{color:'#10b981'}}>Active</span></div>
             </div>
             <div style={styles.milestoneBox}>
               <h4 style={styles.milestoneTitle}>Target & Perks:</h4>
@@ -292,23 +286,23 @@ export default function CreatorPage() {
             <p style={styles.cardBody}>Embed items straight inside your stories, bio links, or feeds.</p>
           </div>
           <div className="stepCard" style={styles.interactiveCard}>
-            <h3 style={{...styles.cardHeader, color:"#a855f7"}}>3. Drive Traffic</h3>
-            <p style={styles.cardBody}>Followers purchase directly via an integrated 1-tap checkout checkout loop.</p>
+            <h3 style={{...styles.cardHeader, color:"#a855f7"}}>3. Build Volumes</h3>
+            <p style={styles.cardBody}>Followers purchase directly while your Bronze earnings stack securely.</p>
           </div>
           <div className="stepCard" style={styles.interactiveCard}>
-            <h3 style={{...styles.cardHeader, color:"#a855f7"}}>4. Bank Unlocks</h3>
-            <p style={styles.cardBody}>Collect your flat 5% cuts alongside scaling tier cash bonuses.</p>
+            <h3 style={{...styles.cardHeader, color:"#a855f7"}}>4. Silver Payout</h3>
+            <p style={styles.cardBody}>Hit 75 orders to open withdrawals and pull your full balance out.</p>
           </div>
         </div>
       </section>
 
       {/* DASHBOARD PREVIEW */}
       <section className="dashboardPreview reveal" style={styles.sectionContainer}>
-        <h2 style={styles.sectionTitle}>Your Creator Dashboard</h2>
+        <h2 style={styles.sectionTitle}>Your Creator Dashboard Features</h2>
         <p style={styles.sectionSubText}>Everything you need to analyze tracking and conversions</p>
         <div style={styles.dashboardGrid}>
           <div className="dashCard" style={styles.dashPill}>📈 Click-Through Tracking</div>
-          <div className="dashCard" style={styles.dashPill}>💰 Affiliate Balance Logs</div>
+          <div className="dashCard" style={styles.dashPill}>🔒 Vault Balance Lock Ledger</div>
           <div className="dashCard" style={styles.dashPill}>🔗 Smart Link Generators</div>
           <div className="dashCard" style={styles.dashPill}>📊 Community Demographics</div>
           <div className="dashCard" style={styles.dashPill}>🎨 Storefront Personalization</div>
@@ -385,8 +379,8 @@ const styles = {
     WebkitTextFillColor: "transparent",
   },
   problemBox: {
-    backgroundColor: "rgba(239, 68, 68, 0.04)",
-    borderLeft: "4px solid #ef4444",
+    backgroundColor: "rgba(168, 85, 247, 0.04)",
+    borderLeft: "4px solid #a855f7",
     padding: "18px 24px",
     borderRadius: "0 12px 12px 0",
     maxWidth: "750px",
@@ -422,16 +416,6 @@ const styles = {
     borderRadius: "8px",
     cursor: "pointer",
     boxShadow: "0 10px 15px -3px rgba(37, 99, 235, 0.3)",
-  },
-  ghostBtn: {
-    backgroundColor: "transparent",
-    color: "#ffffff",
-    border: "1px solid rgba(255,255,255,0.2)",
-    padding: "14px 32px",
-    fontSize: "1rem",
-    fontWeight: "600",
-    borderRadius: "8px",
-    cursor: "pointer",
   },
   statsSection: {
     display: "grid",
