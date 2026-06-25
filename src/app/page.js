@@ -76,6 +76,12 @@ const handleComingSoon = () => {
 >
   Sell on ZAVELO?
 </button>
+<button 
+  className="btn ghost big"
+  onClick={() => router.push('/creator')}
+>
+  Become a Creator
+</button>
         </div>
 
         <div className="badgeRow">
