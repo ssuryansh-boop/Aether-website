@@ -16,7 +16,7 @@ export default function About() {
             marginBottom: "20px",
           }}
         >
-          About Aether
+      ABOUT ZAVELO
         </h1>
 
         <p
@@ -28,7 +28,7 @@ export default function About() {
             lineHeight: "1.8",
           }}
         >
-          Aether is a social commerce platform where content and commerce
+          ZAVELO is a social commerce platform where content and commerce
           become one experience.
         </p>
       </section>
@@ -72,7 +72,7 @@ export default function About() {
         <div className="trustHeader">
           <h2>Built for Everyone</h2>
           <p>
-            Aether creates value for every participant in the ecosystem.
+            ZAVELO creates value for every participant in the ecosystem.
           </p>
         </div>
 
@@ -127,10 +127,10 @@ export default function About() {
         </div>
       </section>
 
-      {/* WHY GLOBOSHOP */}
+      {/* WHY ZAVELO */}
       <section className="trustSection">
         <div className="trustHeader">
-          <h2>Why Aether?</h2>
+          <h2>Why ZAVELO?</h2>
         </div>
 
         <div className="trustGrid">
@@ -177,7 +177,7 @@ export default function About() {
             lineHeight: "1.8",
           }}
         >
-          Aether is currently under active development. We are continuously
+          ZAVELO is currently under active development. We are continuously
           improving the platform, introducing new features, and building the
           next generation of social commerce.
         </p>
@@ -189,7 +189,7 @@ export default function About() {
             fontWeight: "700",
           }}
         >
-          Welcome to Aether 🚀
+          Welcome to ZAVELO 🚀
         </p>
       </section>
     </main>

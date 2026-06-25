@@ -44,14 +44,14 @@ export default function ExplorePage() {
         </button>
         <div className="exploreBrand">
           <span className="brandDot"></span>
-          <span>Aether Experience</span>
+          <span>ZAVELO Experience</span>
         </div>
       </header>
 
       {/* HERO TITLE */}
       <section className="exploreHero">
         <h1 className="revealTitle">
-          Inside <span>Aether</span>
+          Inside <span>ZAVELO</span>
         </h1>
         <p className="revealSubtitle">
           An immersive look at a living social commerce ecosystem. Scroll, discover, and checkout instantly.
@@ -71,7 +71,7 @@ export default function ExplorePage() {
           <div className="phoneBezel">
          
             <div className="phoneScreen">
-              <img src="/screens/feed.jpeg" alt="GloboShop Feed" className="showcaseImg staticMobileImg" />
+              <img src="/screens/feed.jpeg" alt="ZAVELO Feed" className="showcaseImg staticMobileImg" />
             </div>
           </div>
         </div>
@@ -87,7 +87,7 @@ export default function ExplorePage() {
           <div className="phoneBezel">
             <div className="phoneSpeaker"></div>
             <div className="phoneScreen">
-              <img src="/screens/product.png" alt="GloboShop Product Long View" className="showcaseImg longScrollImg" />
+              <img src="/screens/product.png" alt="ZAVELO Product Long View" className="showcaseImg longScrollImg" />
             </div>
           </div>
         </div>
@@ -103,7 +103,7 @@ export default function ExplorePage() {
           <div className="phoneBezel">
             <div className="phoneSpeaker"></div>
             <div className="phoneScreen">
-              <img src="/screens/store.jpeg" alt="GloboShop Store" className="showcaseImg staticMobileImg" />
+              <img src="/screens/store.jpeg" alt="ZAVELO Store" className="showcaseImg staticMobileImg" />
             </div>
           </div>
         </div>
@@ -113,7 +113,7 @@ export default function ExplorePage() {
       <footer className="exploreFooter">
         <h2>Ready to change how you shop?</h2>
         <button className="ctaButton" onClick={() => router.push("/")}>
-          Download Aether App
+          Download ZAVELO App
         </button>
       </footer>
     </main>

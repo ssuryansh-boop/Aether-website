@@ -42,7 +42,7 @@ export default function SellerExplorePage() {
 
         <div className="exploreBrand">
           <span className="brandDot"></span>
-          <span>Aether Seller Studio</span>
+          <span>ZAVELO Seller Studio</span>
         </div>
       </header>
 

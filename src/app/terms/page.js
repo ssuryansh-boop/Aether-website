@@ -16,16 +16,16 @@ Terms & Conditions </h1>
   </p>
 
   <p>
-    Welcome to GloboShop. These Terms and Conditions govern your
-    access to and use of GloboShop's website, mobile application,
-    and related services. By accessing or using GloboShop, you
+    Welcome to ZAVELO. These Terms and Conditions govern your
+    access to and use of zavelo's website, mobile application,
+    and related services. By accessing or using ZAVELO, you
     agree to comply with these Terms.
   </p>
 
   <h2>1. Platform Overview</h2>
 
   <p>
-    GloboShop is a social commerce platform that enables users,
+    ZAVELO is a social commerce platform that enables users,
     creators, and sellers to discover, share, promote, and purchase
     products through interactive content and commerce experiences.
   </p>
@@ -48,7 +48,7 @@ Terms & Conditions </h1>
 
   <h2>3. Seller Responsibilities</h2>
 
-  <p>Sellers using GloboShop must:</p>
+  <p>Sellers using ZAVELO must:</p>
 
   <ul>
     <li>Provide accurate product information</li>
@@ -59,7 +59,7 @@ Terms & Conditions </h1>
   </ul>
 
   <p>
-    GloboShop reserves the right to suspend or remove sellers who
+    ZAVELO reserves the right to suspend or remove sellers who
     violate platform rules or applicable laws.
   </p>
 
@@ -73,26 +73,26 @@ Terms & Conditions </h1>
     <li>Violate intellectual property rights</li>
     <li>Attempt unauthorized access to platform systems</li>
     <li>Disrupt platform operations or services</li>
-    <li>Use GloboShop for unlawful activities</li>
+    <li>Use ZAVELO for unlawful activities</li>
   </ul>
 
   <h2>5. Payments</h2>
 
   <p>
-    Transactions on GloboShop may be processed through authorized
+    Transactions on ZAVELO may be processed through authorized
     third-party payment providers. Payment processing is subject
     to the terms and policies of those providers.
   </p>
 
   <p>
-    GloboShop is not responsible for interruptions, delays, or
+    ZAVELO is not responsible for interruptions, delays, or
     failures caused by third-party payment systems.
   </p>
 
   <h2>6. Intellectual Property</h2>
 
   <p>
-    The GloboShop name, logo, branding, designs, software,
+    The ZAVELO name, logo, branding, designs, software,
     content, and platform materials are protected by applicable
     intellectual property laws.
   </p>
@@ -105,12 +105,12 @@ Terms & Conditions </h1>
   <h2>7. Limitation of Liability</h2>
 
   <p>
-    GloboShop provides services on an "as available" and
+    ZAVELO provides services on an "as available" and
     "as is" basis.
   </p>
 
   <p>
-    To the maximum extent permitted by law, GloboShop shall not
+    To the maximum extent permitted by law, ZAVELO shall not
     be liable for indirect, incidental, special, consequential,
     or punitive damages resulting from use of the platform.
   </p>
@@ -123,7 +123,7 @@ Terms & Conditions </h1>
   </p>
 
   <p>
-    GloboShop reserves the right to remove content or restrict
+    ZAVELO reserves the right to remove content or restrict
     platform access when necessary to protect users and the
     integrity of the platform.
   </p>
@@ -132,7 +132,7 @@ Terms & Conditions </h1>
 
   <p>
     We may update these Terms from time to time. Continued use of
-    GloboShop after changes are published constitutes acceptance
+    ZAVELO after changes are published constitutes acceptance
     of the updated Terms.
   </p>
 
@@ -141,7 +141,7 @@ Terms & Conditions </h1>
   <p>
     These Terms shall be governed by and interpreted in accordance
     with applicable laws and regulations in the jurisdiction where
-    GloboShop operates.
+    ZAVELO operates.
   </p>
 
   <h2>11. Contact</h2>
@@ -152,13 +152,13 @@ Terms & Conditions </h1>
   </p>
 
   <p>
-    <a href="mailto:globoshopofficial@gmail.com">
-      globoshopofficial@gmail.com
+    <a href="mailto:zaveloapp@gmail.com">
+      zaveloapp@gmail.com
     </a>
   </p>
 
   <p style={{ marginTop: "40px", color: "#888" }}>
-    By accessing or using GloboShop, you acknowledge that you have
+    By accessing or using ZAVELO, you acknowledge that you have
     read, understood, and agreed to these Terms & Conditions.
   </p>
 </main>

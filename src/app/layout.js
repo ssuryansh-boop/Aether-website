@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Aether",
+  title: "ZAVELO",
   description: "Next-gen social commerce platform",
 };
 

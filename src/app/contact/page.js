@@ -15,7 +15,7 @@ export default function Contact() {
           marginBottom: "15px",
         }}
       >
-        Contact GloboShop
+        Contact ZAVELO
       </h1>
 
       <p
@@ -28,47 +28,47 @@ export default function Contact() {
       >
         We'd love to hear from you. Whether you have questions,
         feedback, partnership opportunities, or creator inquiries,
-        the GloboShop team is here to help.
+        the ZAVELO team is here to help.
       </p>
 
       <div className="trustGrid">
 
         <div className="trustCard">
           <h3>📧 Email</h3>
-         <a href="mailto:globoshopofficial@gmail.com">
-  globoshopofficial@gmail.com
+         <a href="mailto:zaveloapp@gmail.com">
+  zaveloapp@gmail.com
 </a>
         </div>
 
         <div className="trustCard">
   <h3>📸 Instagram</h3>
   <a
-    href="https://instagram.com/globoshop.app"
+    href="https://instagram.com/zaveloapp"
     target="_blank"
     rel="noopener noreferrer"
   >
-    @globoshop.app
+    @zaveloapp
   </a>
 </div>
 
         <div className="trustCard">
   <h3>𝕏 </h3>
   <a
-    href="https://x.com/globoshopapp"
+    href="https://x.com/zaveloapp"
     target="_blank"
     rel="noopener noreferrer"
   >
-    @globoshopapp
+    @zaveloapp
   </a>
 </div>
         <div className="trustCard">
   <h3>▶ YouTube</h3>
   <a
-    href="https://youtube.com/@globoshopofficial?si=GY8mU-CG6T97evo_"
+    href="https://www.youtube.com/@zaveloapp"
     target="_blank"
     rel="noopener noreferrer"
   >
-    GloboShop
+    zaveloapp
   </a>
 </div>
 

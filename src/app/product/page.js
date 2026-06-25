@@ -431,7 +431,7 @@ export default function ViewProductPreview() {
         {showAuthModal && (
           <div style={styles.modalBackdrop} onClick={() => setShowAuthModal(false)}>
             <div style={styles.modalContent} onClick={(e) => e.stopPropagation()}>
-              <h3 style={styles.modalHeading}>Join Globoshop Profile</h3>
+              <h3 style={styles.modalHeading}>Join ZAVELO Profile</h3>
               <p style={styles.modalSubheading}>Unlock styling feedback metrics, write detailed reviews, and build tracking carts.</p>
               <button style={styles.modalPrimaryAction} onClick={() => setShowAuthModal(false)}>
                 Continue

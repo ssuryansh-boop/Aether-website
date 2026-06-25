@@ -39,17 +39,17 @@ const handleComingSoon = () => {
         <div className="logoContainer" style={{ display: "flex", alignItems: "center", gap: "10px" }}>
           <Image 
             src="/brand-logo.png" 
-            alt="GloboShop Logo"
+            alt="ZAVELO Logo"
             width={48}      /* Adjust width as needed */
             height={48}     /* Adjust height as needed */
             className="logoImg"
             priority        /* Ensures the logo loads immediately without flashing */
           />
-          <span className="logoText">Aether</span>
+          <span className="logoText">ZAVELO</span>
         </div>
 
         <div className="navRight">
-          <button className="btn primary" onClick={handleComingSoon}>Get GloboShop</button>
+          <button className="btn primary" onClick={handleComingSoon}>Get ZAVELO</button>
         </div>
       </header>
 
@@ -60,7 +60,7 @@ const handleComingSoon = () => {
         </h1>
 
         <p className="subtitle">
-          Aether is not a marketplace — it’s a living social commerce ecosystem where every post can sell.
+          ZAVELO is not a marketplace — it’s a living social commerce ecosystem where every post can sell.
         </p>
 
         <div className="heroButtons">
@@ -68,13 +68,13 @@ const handleComingSoon = () => {
   className="btn primary big" 
   onClick={() => router.push('/explore')}
 >
-  Explore Aether
+  Explore ZAVELO
 </button>
           <button 
   className="btn ghost big"
   onClick={() => router.push('/seller')}
 >
-  Sell on Aether?
+  Sell on ZAVELO?
 </button>
         </div>
 
@@ -121,7 +121,7 @@ const handleComingSoon = () => {
           {/* Card Image */}
           <Image 
             src="/screens/image.png" 
-            alt="GloboShop Interface View"
+            alt="ZAVELO Interface View"
             fill
             sizes="(max-width: 440px) 100vw, 400px"
             style={{ objectFit: "cover" }}
@@ -166,7 +166,7 @@ const handleComingSoon = () => {
       {/* VIRAL LIVE SECTION - SINGLE PREMIUM CARD */}
       <section className="viralSection reveal" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
         <div className="viralHeader" style={{ textAlign: "center", marginBottom: "40px" }}>
-          <h2>Live on Aether 🔥</h2>
+          <h2>Live on ZAVELO 🔥</h2>
           <p>Real creators. Real products. Real-time commerce energy.</p>
         </div>
 
@@ -215,7 +215,7 @@ const handleComingSoon = () => {
           {/* Card Image */}
           <Image 
             src="/screens/image2.jpeg" 
-            alt="GloboShop Live Stream Interface"
+            alt="ZAVELO Live Stream Interface"
             fill
             sizes="(max-width: 440px) 100vw, 400px"
             style={{ objectFit: "cover", objectPosition: "top" }}
@@ -259,7 +259,7 @@ const handleComingSoon = () => {
       {/* SCROLL DEPTH PSYCHOLOGY SECTION */}
       <section className="trustSection reveal">
         <div className="trustHeader">
-          <h2>Why people stay on Aether</h2>
+          <h2>Why people stay on ZAVELO</h2>
           <p>Designed for attention, engagement, and instant buying behavior</p>
         </div>
 
@@ -286,17 +286,17 @@ const handleComingSoon = () => {
 
       {/* BRAND / WHY SECTION */}
       <section className="brand reveal">
-        <h2>Why Aether exists</h2>
+        <h2>Why ZAVELO exists</h2>
         <p>
           Traditional e-commerce is static. Social media is addictive but not shoppable.
-          Aether merges both into one experience.
+          ZAVELO merges both into one experience.
         </p>
       </section>
 
       {/* TRENDING TRUST SECTION */}
       <section className="trustSection reveal">
         <div className="trustHeader">
-          <h2>Trending on Aether 🔥</h2>
+          <h2>Trending on ZAVELO 🔥</h2>
           <p>Live demand signals (updated continuously)</p>
         </div>
 
@@ -316,7 +316,7 @@ const handleComingSoon = () => {
       <section className="memorySection reveal">
         <div className="memoryBox">
           <h2 className="memoryTitle">
-            You don’t browse Aether.
+            You don’t browse ZAVELO.
           </h2>
 
           <h1 className="memoryBig">
@@ -351,7 +351,7 @@ const handleComingSoon = () => {
         <div className="trustHeader">
           <h2>Built for trust. Designed for growth.</h2>
           <p>
-            Aether is not a demo. It’s a real commerce ecosystem powered by creators and real users.
+            ZAVELO is not a demo. It’s a real commerce ecosystem powered by creators and real users.
           </p>
         </div>
 
@@ -407,35 +407,44 @@ const handleComingSoon = () => {
         </h2>
 
         <button className="btn primary big" onClick={handleComingSoon}>
-  Join Aether
+  Join ZAVELO
 </button>
       </section>
       {/* FOOTER */}
-<footer className="footer">
+      <footer className="footer">
 
-  <div className="footerBrand">
-    <h2>Aether</h2>
-    <p>Turn every scroll into a storefront.</p>
-  </div>
+        <div className="footerBrand">
+          <h2>ZAVELO</h2>
+          <p>Turn every scroll into a storefront.</p>
+        </div>
 
-  <div className="footerLinks">
+        {/* SOCIAL MEDIA ICONS SECTION */}
+        <div className="footerSocials" style={{ display: "flex", gap: "16px", margin: "20px 0" }}>
+          <a href="https://www.youtube.com/@zaveloapp" target="_blank" rel="noopener noreferrer" style={{ transition: "opacity 0.2s" }} onMouseEnter={(e) => e.currentTarget.style.opacity = "0.7"} onMouseLeave={(e) => e.currentTarget.style.opacity = "1"}>
+            <Image src="/youtube.png" alt="ZAVELO YouTube" width={28} height={28} />
+          </a>
+          
+          <a href="https://instagram.com/zaveloapp" target="_blank" rel="noopener noreferrer" style={{ transition: "opacity 0.2s" }} onMouseEnter={(e) => e.currentTarget.style.opacity = "0.7"} onMouseLeave={(e) => e.currentTarget.style.opacity = "1"}>
+            <Image src="/instagram.png" alt="ZAVELO Instagram" width={28} height={28} />
+          </a>
 
-    <a href="/about">About</a>
+          <a href="https://x.com/zaveloapp" target="_blank" rel="noopener noreferrer" style={{ transition: "opacity 0.2s" }} onMouseEnter={(e) => e.currentTarget.style.opacity = "0.7"} onMouseLeave={(e) => e.currentTarget.style.opacity = "1"}>
+            <Image src="/x.png" alt="ZAVELO X" width={28} height={28} />
+          </a>
+        </div>
 
-    <a href="/privacy">Privacy Policy</a>
+        <div className="footerLinks">
+          <a href="/about">About</a>
+          <a href="/privacy">Privacy Policy</a>
+          <a href="/terms">Terms</a>
+          <a href="/contact">Contact</a>
+        </div>
 
-    <a href="/terms">Terms</a>
+        <div className="footerBottom">
+          <p>© 2026 ZAVELO. All rights reserved.</p>
+        </div>
 
-    <a href="/contact">Contact</a>
-
-  </div>
-
-  <div className="footerBottom">
-    <p>© 2026 Aether. All rights reserved.</p>
-  </div>
-
-</footer>
-
+      </footer>
     </main>
   );
 }
