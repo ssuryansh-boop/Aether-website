@@ -11,7 +11,7 @@ export default function Privacy() {
       <h1 style={{ marginBottom: "10px" }}>Privacy Policy</h1>
 
       <p style={{ color: "#888", marginBottom: "40px" }}>
-        Last Updated: June 2026
+        Last Updated: November 2026
       </p>
 
       <p>
@@ -106,21 +106,46 @@ export default function Privacy() {
         <li>Information regarding stored personal data</li>
       </ul>
 
-      <h2>8. Children's Privacy</h2>
+      {/* NEW DATA DELETION SECTION FOR GOOGLE PLAY COMPLIANCE */}
+      <h2>8. Data Deletion Policy</h2>
+
+      <p>
+        Users may request the deletion of their account and all associated data 
+        (including Reels, profile info, and shipping addresses) at any time. 
+        To request data deletion:
+      </p>
+
+      <ul>
+        <li><strong>In-App:</strong> Navigate to Profile &gt; Settings &gt; Delete Account.</li>
+        <li>
+          <strong>Via Email:</strong> Send an email to{" "}
+          <a href="mailto:zaveloapp@gmail.com">zaveloapp@gmail.com</a> with the 
+          subject line "Account Deletion Request". We will manually wipe your records 
+          from our database within 15 days.
+        </li>
+      </ul>
+
+      <p>
+        <strong>Please note:</strong> Deleting your account will permanently wipe 
+        your profile and your uploaded Reels. Order history and invoices are retained 
+        securely for tax and accounting compliance.
+      </p>
+
+      <h2>9. Children's Privacy</h2>
 
       <p>
         ZAVELO is not intended for individuals who do not meet the
         minimum legal age requirements applicable in their jurisdiction.
       </p>
 
-      <h2>9. Changes to This Policy</h2>
+      <h2>10. Changes to This Policy</h2>
 
       <p>
         We may update this Privacy Policy from time to time. Any updates
         will be posted on this page with a revised effective date.
       </p>
 
-      <h2>10. Contact Us</h2>
+      <h2>11. Contact Us</h2>
 
       <p>
         For privacy-related questions or requests, please contact:
